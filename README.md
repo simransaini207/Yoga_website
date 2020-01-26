@@ -16,13 +16,16 @@ CSS is the language for describing the presentation of Web pages, including colo
 
 # What is WebFonts?
 WebFonts is a technology that enables people to use fonts on demand over the Web without requiring installation in the operating system. W3C has experience in downloadable fonts through HTML, CSS2, and SVG. Until recently, downloadable fonts have not been common on the Web due to the lack of an interoperable font format. The WebFonts effort plans to address that through the creation of an industry-supported, open font format for the Web (called "WOFF").
+Wesbite: https://fonts.google.com/
 
-Examples
-The following very simple example of a portion of an HTML document illustrates how to create a link within a paragraph. When rendered on the screen (or by a speech synthesizer), the link text will be “final report”; when somebody activates the link, the browser will retrieve the resource identified by “http://www.example.com/report”:
+# Materialize CSS
+Materialize CSS is a UI component library which is created with CSS, JavaScript and HTML. It is created and designed by Google. Materialize CSS is also known as Material Design. It is a design language which combines the classic principles of successful design along with innovation and technology. Google's goal is to develop a system of design that allows for a unified user experience across all their products on any platform.
 
-<p class="moreinfo">For more information see the
-<a href="http://www.example.com/report">final report</a>.</p>
-The class attribute on the paragraph's start tag (“<p>”) can be used, among other thing, to add style. For instance, to italicize the text of all paragraphs with a class of “moreinfo,” one could write, in CSS:
+It is used to construct attractive, consistent, and functional web pages and web apps while adhering to modern web design principles such as browser portability, device independence, and graceful degradation.
+Materialize has in-built responsive designing so that the website created using Materialize will redesign itself as per the device size.Materialize classes are created in such a way that the website can fit any screen size.
+
+The websites created using Materialize are fully compatible with PC, tablets, and mobile devices.
+Website:https://materializecss.com/about.html
 
 p.moreinfo { font-style: italic }
 By placing that rule in a separate file, the style may be shared by any number of HTML documents.
