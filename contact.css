@@ -1,0 +1,51 @@
+body {
+    background: url("https://edgemakers.com/wp-content/uploads/sites/3/2017/02/contact-us.jpg") fixed no-repeat center;
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.rate {
+    float: left;
+    height: 46px;
+    padding: 0 50px;
+}
+
+div.rate:not(:checked)>input {
+    position: absolute;
+    top: -9999px;
+}
+
+div.rate:not(:checked)>label {
+    float: right;
+    width: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 55px;
+    color: gray;
+}
+
+div.rate:not(:checked)>label:before {
+    content: ' ★ ';
+}
+
+div.rate>input:checked~label {
+    color: black;
+}
+
+div.rate:not(:checked)>label:hover,
+div.rate:not(:checked)>label:hover~label {
+    color: black;
+}
+
+div.rate>input:checked+label:hover,
+div.rate>input:checked+label:hover~label,
+div.rate>input:checked~label:hover,
+div.rate>input:checked~label:hover~label,
+div.rate>label:hover~input:checked~label {
+    color: black;
+}
